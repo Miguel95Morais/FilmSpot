@@ -12,7 +12,7 @@ module.exports.getAllMovieTheaters = async function () {
     }
 }
 
-module.exports.getMovieTheaters = async function (cinema_id) {
+module.exports.getMovieTheater = async function (cinema_id) {
     try {
         let sql = "SELECT * FROM cinema WHERE cinema_id = ?";
         let cinema = await pool.query(sql, [cinema_id]);
