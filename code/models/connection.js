@@ -4,10 +4,10 @@ var util = require('util');
 
 var pool = mysql.createPool({
     connectionLimit: 20,
-    host: 'localhost',
-    user: 'filmspot',
-    password: 'password',
-    database: 'filmspot',
+    host: 'sql2.freemysqlhosting.net',
+    user: 'sql2381896',
+    password: 'mU1 % hM2 %',
+    database: 'sql2381896',
     port: 3306
 });
 
