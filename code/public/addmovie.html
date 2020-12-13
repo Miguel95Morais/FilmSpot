@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Film Spot</title>
+    <link rel="stylesheet" href="./stylesheets/addmovie.css">
+    <script src="./javascripts/addmovie.js"></script>
+</head>
+
+<body>
+    <nav>
+        <section class="moviepic"><img id="imgFileUpload" alt="Select File" title="Select File"
+                src="images/insert-movie-pic.png" style="cursor: pointer" />
+            <span id="spnFilePath"></span>
+            <input type="file" id="FileUpload1" style="display: none" />
+        </section>
+    </nav>
+    <main>
+        <section class="movieinformation">
+            <form>
+                <label for="fname">Add Title:</label><br>
+                <input type="text" id="fname" name="fname" value="Add Title"><br>
+                <label for="lname">Add Category:</label><br>
+                <input type="text" id="lname" name="lname" value="Add Category"><br>
+                <label for="fname">Add Actors:</label><br>
+                <input type="text" id="fname" name="fname" value="Add Actors"><br>
+                <label for="lname">Add Producers:</label><br>
+                <input type="text" id="lname" name="lname" value="Add Producers"><br>
+                <label for="fname">Add a Description:</label><br>
+                <input type="text" id="fname" name="fname" value="Add a Description"><br>
+                <label for="lname">Add available Cinemas:</label><br>
+                <input type="text" id="lname" name="lname" value="Add available Cinemas"><br><br>
+                <!--<input type="submit" value="Submit">-->
+            </form>
+        </section>
+        <section class="submit">
+            <button class="button button1">Submit</button>
+        </section>
+    </main>
+</body>
+
+</html>

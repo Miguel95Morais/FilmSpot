@@ -2,12 +2,52 @@
 
 <head>
   <title>Film Spot</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="./stylesheets/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./javascripts/index.js"></script>
 </head>
 
 <body>
-  <h1>Film Spot</h1>
-  <p>Welcome to Film Spot</p>
+  <header>
+    <h1>Film Spot</h1>
+    <h2 id="movies">
+      Movies
+    </h2>
+    </section>
+    <h2 id="movietheaters">
+      Movie Theaters
+    </h2>
+
+  </header>
+  <nav>
+    <section class="dropdown">
+      <button class="dropbtn">Categories</button>
+      <section class="dropdown-content">
+        <a href="#">Horror</a>
+        <a href="#">Action</a>
+        <a href="#">Science Fiction</a>
+        <a href="#">Adventure</a>
+        <a href="#">Comedy</a>
+        <a href="#">Thriller</a>
+      </section>
+    </section>
+    <section class="mostseen"><input type="button" value="Most Seen" onclick="filtrarmostseen()"> </section>
+    <section class="betterclassified"><input type="button" value="Better Classified"
+        onclick="filtrarbetterclassified()"> </section>
+  </nav>
+  <aside>
+    <section class="plussquareicon"><a href="addmovie.html">
+        <img id="plussquareicon" src="./images/plus-square-icon.png" width="40" height="40">
+      </a></section>
+  </aside>
+  <main>
+    <div class="picture-grid">
+      <div class="grid-box"><img src="images/transferir.png" /><br>Movie 1</div>
+      <div class="grid-box"><img src="images/transferir.png" /><br>Movie 2</div>
+      <div class="grid-box"><img src="images/transferir.png" /><br>Movie 3</div>
+      <div class="grid-box"><img src="images/transferir.png" /><br>Movie 4</div>
+    </div>
+  </main>
 </body>
 
 </html>

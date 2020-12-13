@@ -1,0 +1,30 @@
+.moviepic{
+    position: absolute;
+    top:  15%;
+    left: 5%;
+}
+.movieinformation{
+    position: absolute;
+    top:  20%;
+    left: 50%;
+    font-size: 40px;
+}
+.submit{
+    position: absolute;
+    top:  80%;
+    left: 90%;
+ 
+}
+.button {
+  background-color: grey;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 4px;}

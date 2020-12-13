@@ -1,0 +1,95 @@
+:root{
+  --blackOne:#222;
+  --blackTwo:#333;
+}
+header h1{
+  text-align: center;
+}
+#movies{
+float:left;  
+margin-left: 30%;
+
+} 
+#movietheaters{
+float: right;
+margin-right: 30%;
+
+}
+
+.dropbtn {
+  background-color: #747574;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 150px;
+ 
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+left: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+.dropdown:hover .dropbtn {
+  background-color: grey;
+
+}
+.mostseen{
+    position: absolute;
+  display: inline-block;
+left: 100px;
+top: 450px;
+}
+.betterclassified{
+    position: absolute;
+  display: inline-block;
+left: 100px;
+top: 600px;
+}
+.plussquareicon{
+      position: absolute;
+  display: inline-block;
+right: 200px;
+top: 600px;
+height: 5px;
+width: 10px;
+}
+.picture-grid {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 1em;
+    grid-column-gap: 18em;
+    text-align: center;
+    margin-top: 85px;
+    left: 410px;
+ }
