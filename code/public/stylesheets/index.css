@@ -8,14 +8,17 @@ header h1{
 #movies{
 float:left;  
 margin-left: 30%;
-
 } 
 #movietheaters{
 float: right;
 margin-right: 30%;
-
 }
-
+.search-button1{
+  font-size: 20px;
+}
+.search-button2{
+  font-size: 20px;
+}
 .dropbtn {
   background-color: #747574;
   color: white;
@@ -88,7 +91,7 @@ width: 10px;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     grid-row-gap: 1em;
-    grid-column-gap: 18em;
+    grid-column-gap: 17em;
     text-align: center;
     margin-top: 85px;
     left: 410px;
